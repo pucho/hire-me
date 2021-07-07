@@ -9,5 +9,15 @@
   "Comment": {
     "body": "string",
     "post": "Post"
+  },
+  "User" : {
+      "firstName": "string",
+      "lastName": "string",
+      "age": "int",
+      "checked": "boolean"
+  },
+  "Group": {
+      "name": "string",
+      "children": "User[]"
   }
 }
