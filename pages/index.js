@@ -22,7 +22,6 @@ export default function Home(props) {
 
   const handleCheckIn = async (child) => {
     const { childId, checkedIn } = child;
-    console.log(checkedIn);
     const res = await fetch(
       `${process.env.NEXT_PUBLIC_API_URL}/v2/children/${childId}/${
         checkedIn ? "checkout" : "checkins"

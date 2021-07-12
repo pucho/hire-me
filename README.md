@@ -2,7 +2,7 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 ## Getting Started
 
-You will need to create a .env file with this 2 keys:
+You will need to rename env.example to .env and update the keys with this 2 keys:
 
 ```bash
 NEXT_PUBLIC_ACCESS_TOKEN="234ffdb8-0889-4be3-b096-97ab1679752c"
